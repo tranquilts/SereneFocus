@@ -30,19 +30,19 @@ SereneFocus applies simplicity, ease of navigation and structured interaction to
 ## System Requirements
 
 ### Functional System Requirements
-The system must record session duration accurately.
-The system must update the progress bar in real-time.
-The system must respond when a timer reaches zero. 
-The system must trigger a transition screen upon session completion. 
-The system must store user preferences (theme, name).
-The system must support pause and resume actions.
+- The system must record session duration accurately.
+- The system must update the progress bar in real-time.
+- The system must respond when a timer reaches zero. 
+- The system must trigger a transition screen upon session completion. 
+- The system must store user preferences (theme, name).
+- The system must support pause and resume actions.
 
 ### Non-functional system requirements
-The system must respond to user input within 2 seconds.
-The system must be functional on modern web browsers. 
-The system must comply with WCAG 2.1 accessibility standards.
-The system must sustain consistent behaviour themes.
-The system must be stable if optional inputs are skipped.
+- The system must respond to user input within 2 seconds.
+- The system must be functional on modern web browsers. 
+- The system must comply with WCAG 2.1 accessibility standards.
+- The system must sustain consistent behaviour themes.
+- The system must be stable if optional inputs are skipped.
 
 
 ## Product Backlog
