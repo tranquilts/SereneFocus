@@ -5,11 +5,44 @@ SereneFocus is a web-based application designed to support students and independ
 
 The system aims to foster a calm, responsive study environment that adapts to users' attentional and cognitive capacities without placing pressure or overstimulation.
 
-The application employs a low-friction, user-centred design approach that simplifies interaction and minimises visual complexity in order to effectively manage cognitive load. Core functionality supports structure, time-ordered study sessions through set timer controls, including start, pause and reset.
+The application employs a low-friction, user-centred design approach that simplifies interaction and minimises visual complexity in order to effectively manage cognitive load. Core functionality supports structure, time-bounded study sessions through set timer controls, including start, pause and reset.
 
 SereneFocus applies simplicity, ease of navigation and structured interaction to support users in sustaining concentration with an uninterrupted, distraction-free environment. 
 
-## User & System Requirements
+## User Requirements
+
+### Functional User Requirements
+- The user must be able to easily set up a focus session.
+- The user must be able to name a focus session with a title of their choice (optional).
+- The user must be able to choose a visual theme of their liking from the options provided. 
+- The user must be able to pause and resume a session. 
+- The user must be notified when a session is complete.
+- The user must be able to reflect after completing a session. 
+ - The user must be able to skip a reflection without penalty. 
+
+### Non-functional User Requirements
+- The interface must be calm and distraction-free.
+ - Text must be readable in light and dark modes. 
+- Colours must align with accessiblity contrast guidelines.
+- The interface must be intuitive without instructions. 
+ - The interface must not pressure the user. 
+
+## System Requirements
+
+### Functional System Requirements
+The system must record session duration accurately.
+The system must update the progress bar in real-time.
+The system must respond when a timer reaches zero. 
+The system must trigger a transition screen upon session completion. 
+The system must store user preferences (theme, name).
+The system must support pause and resume actions.
+
+### Non-functional system requirements
+The system must respond to user input within 2 seconds.
+The system must be functional on modern web browsers. 
+The system must comply with WCAG 2.1 accessibility standards.
+The system must sustain consistent behaviour themes.
+The system must be stable if optional inputs are skipped.
 
 
 ## Product Backlog
@@ -54,23 +87,6 @@ Personalisation is optional to maintain simplicity and usability for users with 
 <img width="881" height="1841" alt="SereneFocus drawio" src="https://github.com/user-attachments/assets/f9f47092-3d77-4860-9f4d-825e5ba4bb9d" />
 
 <img width="1191" height="421" alt="SereneFocus Flowchart drawio" src="https://github.com/user-attachments/assets/b110deac-233b-4666-b857-90079bad764e" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Architecture & Technology Choices
