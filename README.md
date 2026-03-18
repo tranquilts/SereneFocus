@@ -119,6 +119,7 @@ There is client-side state management operating locally on the browser during us
 
 ### Project Management Progression
 
+## User Stories
 Title: Session setup 	
 Sprint: 1
 Priority: High
@@ -208,8 +209,15 @@ Main features remain the same with the session screens.
 
 The product backlog was created to define and prioritise the core functions required for the SereneFocus web application. Features were prioritised based on core functionality and user requirements/experience.
 
-## Scrum Logs 
-
+| ID | User Story  | Priority | 
+-------|------------|---------|
+| 1 |As a user, I want to select a focud duration so I can manage my time | High |
+| 2 | As a user, I want short and long breaks | High |
+|3 |As an user, I want to start/pause/reset the timer | High|
+|4 | As a user, I want a progress bar to track the time | High | 
+| 5 | As a user, I want to be able to name a focus session with a title/purpose | Medium | 
+|6  | As a user, I want to reflect after sessions | Medium | 
+|7 | As a user, I want to change themes  | Medium | 
 # Scrum Development Process
 
 The project followed an iterative development approach derived from the Scrum methodology, with development broken up into smaller sprints.
@@ -232,8 +240,15 @@ Progress was continuously reviewed and changes were undertaken to enhance usabii
 
 ## Testing & Validation
 Testing was carried out at regular intervals to ensure that all user features functioned correctly and aligned with user requirements.
+| Feature | Test Case| Expected Result | Outcome |
+-------|------------|------------------|----------------------------|
+|Navigation |Click buttons between pages| Pages load correctly | Passed| |
+|Timer | Start button begins session | Timer runs as expected | Passed|
+|Reset | Reset button stops sessions | Timer resets to initial state |Passed|
+|Session input| Enter session name  | Input is accepted | Passed|
+|Reflection | Enter reflection text | User session reflection input is captured| Passed |
+|Deployment | Open GitHub Pages link | Website loads publicly |Passed |
 
-------------
 
 Some small-scale issues were identified such as incorrect page linking and layout discrepancies, which were resolved during debugging.
 ## Project Reflection and Evaluation
