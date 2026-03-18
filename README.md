@@ -236,8 +236,9 @@ Involved testing, debugging and refinement, reducing scope of features in respon
 
 Progress was continuously reviewed and changes were undertaken to enhance usabiity and solve problems faced.
 
- 
+ <img width="754" height="452" alt="image" src="https://github.com/user-attachments/assets/05db35e0-4759-46a5-a647-8d70fe258feb" />
 
+The sprint burndown chart displays the planned versus actual progress of my project. The ideal line illustrates expected progress as planned while the actual line reflects real development, where progress was slower initially due to challenges amd increased towards the end.
 ## Testing & Validation
 Testing was carried out at regular intervals to ensure that all user features functioned correctly and aligned with user requirements.
 | Feature | Test Case| Expected Result | Outcome |
