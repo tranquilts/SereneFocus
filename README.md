@@ -202,9 +202,45 @@ Acceptance criteria include:
 Definition of Done:
 User preferences are applied consistently and design stays readable.
 Default theme is applied unless changed by user input.
-Main features remain the same with the session screens. 
+Main features remain the same with the session screens.
+
+## Product Backlog
+
+The product backlog was created to define and prioritise the core functions required for the SereneFocus web application. Features were prioritised based on core functionality and user requirements/experience.
+
+## Scrum Logs 
+
+# Scrum Development Process
+
+The project followed an iterative development approach derived from the Scrum methodology, with development broken up into smaller sprints.
+
+Sprint 1 (28/01/2026 - 05/03/2026)
+Involved identification of target audience and their user needs and created the user interface structure/design and user journey captured using SereneFocus.
+Set up HTML pages (controls, focus, completion, reflection, themes)
+
+Sprint 2 (06/03/2026 - 13/03/2026)
+Applied styling to match the design requirements for SereneFocus and system behaviour
+Implemented JavaScript functionality for timer behaviour.
+Added navigation to navigate between pages and illustrate the user flow
+
+Sprint 3 (14/03/2026 - 18/03/2026)
+Involved testing, debugging and refinement, reducing scope of features in response to problems occurring throughout development and prioritise a stable, functional base prototype.
+
+Progress was continuously reviewed and changes were undertaken to enhance usabiity and solve problems faced.
+
  
 
 ## Testing & Validation
+Testing was carried out at regular intervals to ensure that all user features functioned correctly and aligned with user requirements.
 
+------------
+
+Some small-scale issues were identified such as incorrect page linking and layout discrepancies, which were resolved during debugging.
 ## Project Reflection and Evaluation
+ This project supported my development in practical skills in front-end web development using HTML, CSS and JavaScript.
+
+One of the primary challenges I ran into was implementing consistent navigattion between numerous pages and ensuring all components functioned properly when deployed on GitHub pages. I also experienced problems with file linking and page structure, which required debugging and problem solving.
+
+Due to time constraints, some initial features such as dynamic time customisation, break logic and visual themes were deprioritised. However, the core functionality of the application, including focus sessions, progress tracking, reflections and access to personalisation as placeholders was successfully implemented.
+
+Overall, this project improved my technical competence, problem-solving ability, and understanding of web application development and deployment.
